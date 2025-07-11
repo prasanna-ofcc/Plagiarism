@@ -50,5 +50,5 @@ for i in range(len(l_name)):
     len1=len(common)
     len2=len(union)
     p=(len1/len2)*100 
-    data.append([a,len1,len2,p])
+    data.append([a,len2,len1,p])
 print(tabulate(data, headers=headers, tablefmt="grid"))
